@@ -1,0 +1,9 @@
+apiversion:  v1
+kind:  Pod
+metadata:
+  name: podale1
+spec:
+  containers:
+    - name: nginx-ale
+      image: nginx
+      - containerPort: 8080
